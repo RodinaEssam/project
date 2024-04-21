@@ -6,7 +6,6 @@ private int orderId;
 private product[]products2;
 private float totalPrice;
 public order(int customerId, int orderId, product[] products2, float totalPrice) {
-	super();
 	this.customerId = customerId;
 	this.orderId = orderId;
 	this.products2 = products2;
